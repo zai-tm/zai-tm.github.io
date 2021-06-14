@@ -1,0 +1,12 @@
+h1, h2, h3, p, div,a {font-family: Verdana;}
+body {
+  padding-right: 150px; padding-left: 150px; padding-top: 0px; padding-bottom: 150px;
+  background-color: darkslategray;
+}
+div.body {
+  background-color: white;
+  padding: 20px;
+  border: 10px ridge;
+  border-color: slategrey;
+}
+img {border: 5px inset slategrey}

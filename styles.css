@@ -1,7 +1,6 @@
 h1, h2, h3, p, div,a {font-family: Verdana;}
 body {
   padding-right: 300px; padding-left: 300px; padding-top: 0px; padding-bottom: 300px;
-  background: url(images/image1.jpg);
   background-color: darkslategray;
   height: 100%; 
   background-position: center;

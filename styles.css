@@ -1,6 +1,12 @@
-h1, h2, h3, p, div,a {font-family: Verdana;}
+@font-face {
+  font-family: SegUIVar;
+  src: url(fonts/SegUIVar.ttf)
+}
+h1, h2, h3, p, div,a {font-family: SegUIVar, 'Segoe UI', sans-serif;}
 body {
-  padding-right: 300px; padding-left: 300px; padding-top: 0px; padding-bottom: 150px;
+  margin: 0 auto;
+  width: 70%;
+  padding-top:1%;
   background-color: darkslategray;
   height: 95%; 
   background-position: center;
@@ -15,16 +21,27 @@ body {
   border-color: slategrey;
   backdrop-filter: blur(10px);
 }
-img {border: 5px ridge slategrey}
+img {border: 5px ridge slategrey; margin: 5px}
 .imagetext {
-  font-size: 12px;
-  width: 279px;
+  font-size: 15px;
+  width: auto;
   position: relative;
 }
-.gallery {
-  margin: 0 auto;
-}
 .image {
-  height:156px;
-  width:279px;
+  height:75%;
+  width:75%;
 }
+.DownloadButton {
+  background: linear-gradient(to bottom, rgb(84, 124, 163), rgb(69, 101, 133));
+	border-radius:5px;
+	border:1px solid rgb(49, 76, 102);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+  padding:0px 5px;
+	text-decoration:none;
+  text-shadow:black 1px 1px 3px;
+  box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;;
+}
+.DownloadButton:active {background: linear-gradient(to top, rgb(84, 124, 163), rgb(69, 101, 133));}

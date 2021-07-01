@@ -28,7 +28,6 @@ img {border: 5px ridge slategrey; margin: 5px}
   position: relative;
 }
 .image {
-  height:75%;
   width:75%;
 }
 .DownloadButton {

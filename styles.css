@@ -17,11 +17,19 @@ body {
 .body {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
-  border: 5px ridge;
-  border-color: slategrey;
-  backdrop-filter: blur(10px);
+  border: 2px solid;
+  border-radius:7px;
+  border-color: white;
+  backdrop-filter: blur(5px);
+  box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
 }
-img {border: 5px ridge slategrey; margin: 5px}
+img {
+  border: 2px solid;
+  border-radius:5px;
+  border-color: white;
+  margin:5px;
+  box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
+}
 .imagetext {
   font-size: 15px;
   width: auto;
@@ -31,16 +39,16 @@ img {border: 5px ridge slategrey; margin: 5px}
   width:75%;
 }
 .DownloadButton {
-  background: linear-gradient(to bottom, rgb(84, 124, 163), rgb(69, 101, 133));
+  background-color: rgba(112, 128, 144, 0.5);
+  backdrop-filter: blur(15px);
 	border-radius:5px;
-	border:1px solid rgb(49, 76, 102);
+	border:1px solid rgb(100, 100, 100);
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
   padding:0px 5px;
 	text-decoration:none;
   text-shadow:black 1px 1px 3px;
-  box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;;
+  box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
 }
 .DownloadButton:active {background: linear-gradient(to top, rgb(84, 124, 163), rgb(69, 101, 133));}

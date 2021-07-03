@@ -29,6 +29,7 @@ img {
   border-color: white;
   margin:5px;
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
+  transition: transform 100ms ease-in-out;
 }
 .imagetext {
   font-size: 15px;
@@ -38,7 +39,7 @@ img {
 .image {
   width:75%;
 }
-.DownloadButton {
+.button {
   background-color: rgba(112, 128, 144, 0.5);
   backdrop-filter: blur(15px);
 	border-radius:5px;
@@ -52,26 +53,19 @@ img {
 	text-decoration:none;
   text-shadow:black 1px 1px 3px;
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
+  transition: transform 100ms ease-in-out;
+}
+.button:active {
   transform-origin: center;
+  transform: scale(calc(13 / 14)) 
 }
 table {
   table-layout: fixed;
   width: 100%;
 }
 img:active {
-  animation-duration: 0.15s;
-  animation-name: click
-}
-@keyframes click {
-  from {
-    width: 75%;
-  }
-  50% {
-    width: 72.5%;
-  }
-  from {
-    width: 75%;
-  }
+  transform-origin: center;
+  transform: scale(calc(70 / 75)) 
 }
 td {
   text-align: center; 

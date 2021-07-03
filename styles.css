@@ -7,8 +7,8 @@ body {
   margin: 0 auto;
   width: 70%;
   padding-top:1%;
-  background-color: darkslategray;
-  height: 95%; 
+  padding-bottom: 20%;
+  background-color: darkslategray; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,11 +44,37 @@ img {
 	border-radius:5px;
 	border:1px solid rgb(100, 100, 100);
 	display:inline-block;
+  width: 14%;
+  text-align: center;
 	cursor:pointer;
 	color:#ffffff;
-  padding:0px 5px;
+  padding:5px 2px;
 	text-decoration:none;
   text-shadow:black 1px 1px 3px;
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
+  transform-origin: center;
 }
-.DownloadButton:active {background: linear-gradient(to top, rgb(84, 124, 163), rgb(69, 101, 133));}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+img:active {
+  animation-duration: 0.15s;
+  animation-name: click
+}
+@keyframes click {
+  from {
+    width: 75%;
+  }
+  50% {
+    width: 72.5%;
+  }
+  from {
+    width: 75%;
+  }
+}
+td {
+  text-align: center; 
+  vertical-align: middle;
+}
+

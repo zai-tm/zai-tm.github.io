@@ -55,9 +55,13 @@ img {
   transition: transform 100ms ease-in-out;
   margin-right: 5px;
 }
+.button:hover {
+  transform-origin: center;
+  transform: scale(calc(14 / 13)) 
+}
 .button:active {
   transform-origin: center;
-  transform: scale(calc(13 / 14)) 
+  transform: scale(calc(1 / 1)) 
 }
 table {
   table-layout: fixed;

@@ -73,7 +73,7 @@ img:hover {
 }
 img:active {
   transform-origin: center;
-  transform: scale(calc(70 / 75)) 
+  transform: scale(calc(1 / 1)) 
 }
 td {
   text-align: center; 

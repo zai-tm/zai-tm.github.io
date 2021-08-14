@@ -67,6 +67,10 @@ table {
   table-layout: fixed;
   width: 100%;
 }
+img:hover {
+  transform-origin: center;
+  transform: scale(calc(75 / 70)) 
+}
 img:active {
   transform-origin: center;
   transform: scale(calc(70 / 75)) 

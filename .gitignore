@@ -1,0 +1,9 @@
+# webserver files (only here so i can test easier)
+xampp/
+webalizer/
+dashboard/
+img/
+pma.php
+bitnami.css
+favicon.ico
+

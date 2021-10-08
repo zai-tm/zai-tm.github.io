@@ -1,0 +1,1 @@
+setTimeout(() => document.getElementById("thefunny").innerHTML = "in your computer", 750);

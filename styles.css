@@ -2,7 +2,8 @@
   font-family: SegUIVar;
   src: url(fonts/SegUIVar.ttf)
 }
-h1, h2, h3, p, div,a {font-family: SegUIVar, 'Segoe UI', sans-serif; text-decoration: none;}
+p, div,a {font-family: SegUIVar, sans-serif; text-decoration: none;}
+h1, h2, h3 {font-family: 'Segoe UI', SegUIVar, sans-serif; text-decoration: none;}
 body {
   margin: 0 auto;
   width: 60%;

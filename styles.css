@@ -2,8 +2,8 @@
   font-family: SegUIVar;
   src: url(fonts/SegUIVar.ttf)
 }
-p, div,a {font-family: SegUIVar, sans-serif; text-decoration: none;}
-h1, h2, h3 {font-family: 'Segoe UI', SegUIVar, sans-serif; text-decoration: none;}
+p, div,a {font-family: SegUIVar, 'Segoe UI', sans-serif; text-decoration: none; }
+h1, h2, h3, h4 {font-family: 'Segoe UI', sans-serif; text-decoration: none;}
 body {
   margin: 0 auto;
   width: 60%;
@@ -55,8 +55,10 @@ img {
   text-shadow:black 1px 1px 3px;
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
   transition: transform 100ms ease-in-out;
-  margin-right: 5px;
   min-width: 70px;
+  margin-right: 5px;
+  margin-top: 5px;
+  
 }
 .button:hover {
   transform-origin: center;
@@ -85,5 +87,16 @@ td {
 
 .button-container {
   display:flex;
+  flex-wrap: wrap;
+}
+.date {
+  font-style: italic;
+}
+.date, .year, .month, .news-title {
+  line-height:10px;
+  margin:10px 0px;
 }
 
+.big {
+  line-height:20px;
+}

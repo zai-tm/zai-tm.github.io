@@ -2,8 +2,8 @@
   font-family: SegUIVar;
   src: url(fonts/SegUIVar.ttf)
 }
-p, div,a {font-family: SegUIVar, 'Segoe UI', sans-serif; text-decoration: none; }
-h1, h2, h3, h4 {font-family: 'Segoe UI', sans-serif; text-decoration: none;}
+p, div,a {font-family: SegUIVar, Segoe UI, sans-serif; text-decoration: none; }
+h1, h2, h3, h4 {font-family: Segoe UI, SegUIVar, sans-serif; text-decoration: none;}
 body {
   margin: 0 auto;
   width: 60%;
@@ -58,7 +58,11 @@ img {
   min-width: 70px;
   margin-right: 5px;
   margin-top: 5px;
-  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
 }
 .button:hover {
   transform-origin: center;

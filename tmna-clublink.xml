@@ -4,10 +4,10 @@
 	<name>TrackMania North America</name>
   
   <!-- Zone of the team (See in game for the zone structure) -->
-	<zone>World|United States of America|Kansas</zone>
+	<zone>World|United States of America</zone>
   
   <!-- City of the team -->
-	<city></city>
+	<city>Kansas</city>
   
   <!-- Colors of the team (Used on the spawns, the poles and the UI) -->
 	<color primary="574" secondary="764" />
@@ -18,6 +18,10 @@
 	
 	<!-- Players list -->
 	<players>
+		<player login="tushy444trackmaniagamer">
+			<nickname>asdasdasd</nickname>
+			<avatar>https://zai-tm.github.io/tmna-clublink.dds</avatar>
+		</player>
 	</players>
   
   <!-- Sponsors list -->

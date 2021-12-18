@@ -19,16 +19,29 @@
 	<!-- Players list -->
 	<players>
 		<player login="tushy444trackmaniagamer">
-			<nickname>asdasdasd</nickname>
-			<avatar>https://zai-tm.github.io/tmna-clublink.dds</avatar>
+			<nickname>zai-tm</nickname>
+			<avatar></avatar>
 		</player>
+		<player login="plantathon">
+			<nickname>Plambt</nickname>
+			<avatar></avatar>
+		</player>
+		<player login="teslaman">
+			<nickname>Rexasaurus.</nickname>
+			<avatar></avatar>
+		</player>
+		<player login="eyebo">
+			<nickname>eyebo</nickname>
+			<avatar></avatar>
+		</player>
+
 	</players>
   
   <!-- Sponsors list -->
   <!-- They'll be displayed on the sides of the screen during the end of the rounds/maps  -->
 	<sponsors>
-			<sponsor name="sponsorrrrrrrrrrrrrrrrrr">
-			<image_2x1>http://maniacdn.net/tushy444trackmaniagamer/Trackmania3/Any/Advertisement2x1/Black.jpg</image_2x1>
+			<sponsor name="Discord">
+			<image_2x1>http://maniacdn.net/teslaman/NA-Discord/Graphics/NA-Ad2x1.jpg</image_2x1>
 		</sponsor>
 	</sponsors>
 </club>

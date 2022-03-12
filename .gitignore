@@ -3,9 +3,10 @@ xampp/
 webalizer/
 dashboard/
 img/
-pma.php
 bitnami.css
 # the most epic clicker game ever (ignored because seperate repo and i'm not using a python webserver)
 the-most-epic-clicker-game-ever/
 # fireaqua
 fireaqua/
+
+*.php
